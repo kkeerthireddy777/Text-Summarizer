@@ -1,0 +1,10 @@
+Attention Is All You Need
+
+The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.
+
+The Transformer allows for significantly more parallelization and thus reduced training times. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train.
+
+The Transformer model is based on multi-head self-attention, which allows the model to jointly attend to information from different representation subspaces at different positions. Positional encoding is added to the input embeddings at the bottoms of the encoder and decoder stacks to provide information about the relative or absolute position of the tokens in the sequence.
+
+Our results show that the Transformer outperforms the state-of-the-art on English-to-German and English-to-French translation tasks, improving the BLEU score by a significant margin.
+
