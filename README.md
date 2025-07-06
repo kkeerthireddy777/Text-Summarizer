@@ -55,4 +55,7 @@ Integrate summarization metrics like ROUGE or BLEU.
 Add memory or vector-based document storage.
 Let users select different models (e.g., OpenAI, Claude).
 
+## Output
+<img width="1570" height="357" alt="Image" src="https://github.com/user-attachments/assets/d18800cc-e586-4b99-9f3e-ddd9938ccb02" />
+
 
